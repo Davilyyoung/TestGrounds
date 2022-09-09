@@ -32,12 +32,12 @@ class AFirstPersonCharacter : public ACharacter
 	USceneComponent* FP_MuzzleLocation;
 
 	/** Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun) */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	USkeletalMeshComponent* VR_Gun;
+	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	//USkeletalMeshComponent* VR_Gun;
 
 	/** Location on VR gun mesh where projectiles should spawn. */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	USceneComponent* VR_MuzzleLocation;
+	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	//USceneComponent* VR_MuzzleLocation;
 
 	/** First person camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -92,7 +92,7 @@ protected:
 	void OnFire();
 
 	/** Resets HMD orientation and position in VR. */
-	void OnResetVR();
+	//void OnResetVR();
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);

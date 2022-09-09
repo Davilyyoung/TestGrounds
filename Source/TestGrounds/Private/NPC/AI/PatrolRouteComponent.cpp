@@ -5,6 +5,5 @@
 
 TArray<AActor*> UPatrolRouteComponent::GetPatrolPoint() const
 {
-
 	return PatrolPoints;
 }
