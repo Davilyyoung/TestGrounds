@@ -8,8 +8,8 @@ ATestGroundsGameMode::ATestGroundsGameMode()
 	: Super()
 {
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("Blueprint'/Game/Player/FPP_Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'"));
-	DefaultPawnClass = PlayerPawnClassFinder.Class;
+	//static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("Blueprint'/Game/Static/Framework/GameMode/BP_GroundsGameMode.BP_GroundsGameMode_C'"));
+	//DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
 	HUDClass = ATestGroundsHUD::StaticClass();

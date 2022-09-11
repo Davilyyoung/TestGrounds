@@ -3,14 +3,13 @@
 #include "TestGroundsHUD.h"
 #include "Engine/Canvas.h"
 #include "Engine/Texture2D.h"
-#include "TextureResource.h"
 #include "CanvasItem.h"
 #include "UObject/ConstructorHelpers.h"
 
 ATestGroundsHUD::ATestGroundsHUD()
 {
 	// Set the crosshair texture
-	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("Texture2D'/Game/Player/FirstPerson/Textures/FirstPersonCrosshair.FirstPersonCrosshair'"));
+	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("Texture2D'/Game/Static/Player/FirstPerson/Textures/FirstPersonCrosshair'"));
 	CrosshairTex = CrosshairTexObj.Object;
 }
 
