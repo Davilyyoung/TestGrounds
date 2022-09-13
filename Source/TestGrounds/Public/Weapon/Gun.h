@@ -43,6 +43,7 @@ public:
 	USceneComponent* FP_MuzzleLocation;
 
 	/** Fires a projectile. */
+	UFUNCTION(BlueprintCallable,Category="Setup")
 	void OnFire();	
 
 
