@@ -1,0 +1,15 @@
+If you can see the enemy, and within 300m shoot at the enemy.
+如果你能看到敌人，并在300米范围内向敌人射击
+敵が見えていて、300m以内にいる場合は、敵に向かって撃つ。
+
+If you see the enemy and not within 300m, move within 300m of the enemy while shooting.
+如果你看到了敌人，而且不在300米之内，就在300米之内移动，同时射击。
+敵が見えても300m以内にいない場合は、敵の300m以内に移動しながら射撃してください。
+
+If cant`t see the enemy, but haven`t visited last know location, visit that location.
+如果看不到敌人，但还没有访问最后知道的地点，就访问那个地点。
+敵が見えないが、最後に知った場所を訪問していない場合、その場所を訪問する。
+
+Else go to the next patrol point.
+否则就去下一个巡逻点。
+それ以外の場合は、次のパトロールポイントに移動します。
